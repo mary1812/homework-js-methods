@@ -23,6 +23,21 @@ function getMax(arrayOfNumbers) {
   return maxNumber;
 }
 //Дан массив arr. Найдите среднее арифметическое его элементов. Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
+const arr = [12,15,20,25,59,79];
+const average = function() {
+  let result = 0;
+  for(let i=0, i<array.length, i++)
+  result += array[i]
+}
+return (result/array.length) 
+
+}
+
+
+
+
+
+
 //=========(Math.random + Math.ceil/Math.floor/Math.round)==========
 //Выведите на экран случайное целое число от 1 до 100 с помощью функции.
 //Заполните массив 10-ю случайными целыми числами.
@@ -108,3 +123,5 @@ arrSort.sort();
 console.log(arrSort)
 
 //object.keys
+const objKeys = {js:'test', jq: 'hello', css: 'world'};
+console.log(Object.keys(objKeys));
